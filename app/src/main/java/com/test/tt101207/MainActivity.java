@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import java.io.File;
+import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d("FILE", f3.toString());
         File f4 = Environment.getExternalStorageDirectory();
         Log.d("FILE", f4.toString());
+
+        InputStream is = getResources().openRawResource(R.raw.mydata);
 
     }
 }
