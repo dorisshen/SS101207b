@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Log.d("DATA", sb.toString());
+        Log.d("DATA01", sb.toString());
     }
 
     public void click2(View v)
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 sb.append(new String(ch));
             }
-            Log.d("DATA", sb.toString());
+            Log.d("DATA03", sb.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
